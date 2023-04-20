@@ -22,8 +22,4 @@ public class Item {
   private String itemDescription;
   private float itemPrice;
   
-  @ManyToOne
-  @JoinColumn(name = "item_category")
-  private Item itemCategory;
-  
 }
