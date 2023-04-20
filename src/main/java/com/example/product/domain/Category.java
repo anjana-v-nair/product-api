@@ -3,6 +3,7 @@ package com.example.product.domain;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
 import javax.persistence.*;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 @Table(name = "category")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class Category {
   
