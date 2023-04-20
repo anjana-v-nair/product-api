@@ -14,4 +14,9 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Builder
 public class Stores {
+  
+  @Id
+  private Long storesId;
+  
+  private String storesLocation;
 }
