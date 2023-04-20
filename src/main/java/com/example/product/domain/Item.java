@@ -4,6 +4,7 @@ package com.example.product.domain;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
 import javax.persistence.*;
 
@@ -11,6 +12,7 @@ import javax.persistence.*;
 @Table(name = "item")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class Item {
   
