@@ -14,4 +14,15 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Builder
 public class Item {
+  
+  @Id
+  private Long itemId;
+  private String itemName;
+  private String itemDescription;
+  private float itemPrice;
+  
+  @ManyToOne
+  @JoinColumn(name = "item_category")
+  private Item itemCategory;
+  
 }
