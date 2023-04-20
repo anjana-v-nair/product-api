@@ -1,0 +1,1 @@
+insert into item (item_id, item_name, item_description, item_category, item_price) values ( 119363, 'Samsung 1.6-cu ft Over-the-Range Microwave', 'Attractive stainless steel exterior', 001, 199.00)
