@@ -21,8 +21,4 @@ public class Category {
   private String categoryName;
   private String  categoryDescription;
   
-  @OneToMany
-  @JoinColumn(name = "item_category")
-  private List<Item> items;
-  
 }
